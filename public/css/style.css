@@ -1,0 +1,337 @@
+
+/*--------------Header-TOP-------------*/
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 43px;
+    border-bottom: 1px solid #505050;
+    min-height: 45px;
+    background: none;
+}
+.header-top .social-icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-top nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-top nav Link {
+    color: white;
+}
+.divider {
+    border-right: 1px solid #505050;
+    margin: 0 10px;
+    height: 25px;
+}
+.divider-bottom {
+    border-bottom: 1px solid #505050;
+    margin: 0 10px;
+    width: 80%;
+}
+.header-buy img{
+    width: 40%;
+    margin-right: 5px;
+}
+.nav-buy-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    margin-right: 20px;
+    padding: 0 10px;
+    background-color: #5d5d5d;
+}
+.nav-sell-field {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-tool-responsive {
+    display: none;
+}
+
+.sign:hover {
+    color: thistle;
+}
+.header-top-switch span {
+    color: white;
+    margin-right: 20px;
+}
+.header-tool {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 53px;
+    background: #1a1a1a;
+    padding: 40px 50px;
+}
+
+.header-tool-responsive .search {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 30px;
+    margin-top: 15px;
+}
+.header-tool-responsive .tool {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+.header-tool-responsive .tool img {
+    width: 25%;
+}
+.header-tool-responsive .search input {
+    font-size: 15px;
+    padding: 0 10px;
+    margin-right: 5px;
+    border: none;
+    height: 38px;
+    border-radius: 5px;
+    width: 90%;
+    outline: none;
+}
+.header-tool-responsive .cart-btn {
+    background-color: #f5b112;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    /* position: relative; */
+}
+.header-tool-responsive .search-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5b112;
+    width: 45px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.nav-logo img {
+    width: 100%;
+}
+.nav-search {
+    width: 60%;
+    display: flex;
+    margin-left: 5%;
+}
+.search-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav-search .search-bar input {
+    font-size: 13px;
+    border: none;
+    padding: 5px 5px 5px 25px;
+    width: 100%;
+    height: 40px;
+    border-radius: 100px 0 0 100px;
+    box-shadow: inset 0 2px 4px rgb(0 0 0 / 20%);
+    outline: none;
+}
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    background-color: #f5b112;
+    border-radius: 0 100px 100px 0;
+    cursor: pointer;
+}
+.search-filter {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    color: #fff;
+    height: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: space-between;
+}
+.search-filter span {
+    color: #fff;
+    cursor: pointer;
+    transition: color .3s linear;
+    font-size: 14px;
+    font-weight: 600;
+}
+.nav-cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-cart span {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10px;
+}
+.filter-field-responsive {
+    display: none;
+}
+.filter-field-responsive .advanced-btn {
+    align-self: baseline;
+    font-size: 13px;
+    background: #f5b112;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.filter-field-responsive .filter-btn {
+    align-self: baseline;
+    font-size: 13px;
+    background: #f5b112;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/*------------------body-----------------*/
+.acc-filter-btn {
+    color: white;
+    background-color: turquoise;
+}
+.acc-body {
+    background-color: #0f0e0e;
+    padding: 10px 5%;
+}
+.acc-card {
+    width:100%; 
+    text-align:center;
+}
+.acc-card img {
+    width: 80%;
+}
+
+
+/*------------------Footer---------------*/
+.acc-footer {
+    padding: 50px 17%;
+}
+.footer-social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 120%;
+    margin-top: 20px;
+}
+.footer-social-icon i{
+    color: white;
+    font-size: 20px;
+}
+.facebook-field {
+    width: 35px;
+    height: 35px;
+    background: rgb(46, 96, 161);
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.youtub-field {
+    width: 35px;
+    height: 35px;
+    background: rgb(219, 35, 35);
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.tiktok-field {
+    width: 39px;
+    height: 39px;
+    background: black;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.tiktok-field img {
+    width: 20px;
+    height: 20px;
+}
+.instergram-field {
+    width: 35px;
+    height: 35px;
+    background: rgb(111, 54, 177);
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.discord-field {
+    width: 35px;
+    height: 35px;
+    background: rgb(55, 129, 241);
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 830px) {
+    .header-top-switch {
+        display: none;
+    }
+    .nav-logo img {
+        width: 80%;
+    }
+    .nav-logo img {
+        display: none;
+    }
+    .header-tool {
+        padding: 30px 0px;
+    }
+    .nav-search {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+   .header-top .social-icon {
+       display: none;
+   }
+}
+
+@media screen and (max-width: 735px) {
+    .header-tool-responsive {
+        display: block;
+        margin: 10px 0;
+    }
+    .header-tool {
+        display: none;
+    }
+    .navigator {
+        display: none;
+    }
+    .filter-field {
+        display: none;
+    }
+    .header-tool-responsive .tool img {
+        width: 190px;
+    }
+
+    .filter-field-responsive {
+        display: block;
+    }
+    .filter-field-responsive .tool{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+}
