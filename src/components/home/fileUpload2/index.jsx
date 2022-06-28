@@ -49,7 +49,7 @@ export default function FileUpload2() {
           <AiOutlineFilePdf fontSize={90} color="rgb(202 202 202)" />
         </p>
         <p className="ant-upload-text">
-          Click or drag file to this area to upload
+          Click or drag files to this areas to upload
         </p>
       </Dragger>
     </div>
