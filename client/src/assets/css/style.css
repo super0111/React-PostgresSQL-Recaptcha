@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif !important;
+}
+
+.main-container {
+    display: flex;
+}
+
+.main__containe__inner {
+    flex-grow: 1;
+    padding: 10px 0px 0 20px;
+}
+
+.pre-wrapper {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #004F88;
+    border-radius: 3px;
+    margin: 20px 0 1rem;
+    padding: 15px;
+    align-items: end;
+}
+
+.prem-logo img {
+    width: 100%;
+    max-width: 220px;
+}
+
+.btn.btn-unlock {
+    margin: 0;
+    padding: 0.4rem 1rem;
+    vertical-align: middle;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: none;
+    user-select: none;
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 1.15;
+    background: #ffbf00;
+    color: #000;
+    min-width: 200px;
+    text-align: center;
+    height: 50px;
+}
+
+.prem-left-wrapper p {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.prem-left-wrapper {
+    padding-right: 30px;
+}
+
+
+@media (max-width: 991px) {
+    .main__containe__inner {
+        padding: 0;
+    }
+}

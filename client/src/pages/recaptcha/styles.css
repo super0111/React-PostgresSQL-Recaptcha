@@ -1,0 +1,13 @@
+.recapcha {
+  width: 30%;
+  height: auto;
+  padding-top: 100px;
+}
+.recapcha .title {
+  font-size: 25px;
+  font-weight: 600;
+}
+.recapcha .text {
+  font-size: 16px;
+  margin: 0px 0 30px 0;
+}

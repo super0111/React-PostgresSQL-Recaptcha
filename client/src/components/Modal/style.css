@@ -1,0 +1,210 @@
+.plus-btn {
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+
+.plus-btn img {
+    width: 15px;
+}
+
+.modal-title.h4 {
+    padding: 0 0;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.red-color {
+    color: #c40000;
+}
+
+
+.green-color {
+    color: green;
+}
+
+.slide-hader {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+
+.slide-hader h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #000;
+    font-size: 28px;
+}
+
+.slick-slider {
+    padding: 0 10px;
+}
+
+.modal-table thead tr th {
+    font-size: 13px;
+    padding: 4px;
+    font-weight: 600;
+}
+
+.modal-table tbody tr td {
+    font-size: 12px;
+    padding: 5px 2px;
+}
+
+.inner-header h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+.bottom-border {
+    border-bottom: 1px solid #000;
+    margin-bottom: 5px;
+}
+
+.list-data-box {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 5px;
+}
+
+.news-box a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.news-box {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+}
+
+.news-box p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.news-box:last-child {
+    border: none;
+}
+
+.slide-hader .btn-outline {
+    padding: 1px 15px;
+    font-size: 14px;
+}
+
+.op-left-wrapper h4 {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 800;
+}
+
+.btn.btn-sell {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-weight: 700;
+    background-color: #c40000;
+    margin-bottom: 10px;
+    border-radius: 0;
+    width: 100%;
+    padding: 0;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.op-left-wrapper p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+ul.slick-dots {
+    bottom: 0;
+}
+
+ul.slick-dots li button {
+    opacity: .3;
+    background: black;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+}
+
+.slick-dots li {
+    width: 15px;
+    height: 15px;
+}
+
+.slick-dots li.slick-active button {
+    opacity: 1;
+}
+
+
+.modal-lg,
+.modal-xl {
+    max-width: 700px;
+}
+
+ul.slick-dots {
+    bottom: 0;
+}
+
+ul.slick-dots li button {
+    opacity: .3;
+    background: black;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+}
+
+.slick-dots li {
+    width: 15px;
+    height: 15px;
+}
+
+.slick-dots li.slick-active button {
+    opacity: 1;
+}
+
+.modal-lg,
+.modal-xl {
+    max-width: 700px;
+}
+
+.progress-wrapper .progress {
+    background: #c40000;
+    border-radius: 0;
+    height: 8px;
+}
+
+.progress-wrapper .progress-bar {
+    background: #007d33;
+}
+
+.pregress-vale {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.pregress-vale p {
+    margin: 0;
+    font-size: 12px;
+}
