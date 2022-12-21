@@ -19,37 +19,9 @@ import { loginUser } from "../../apis/auth";
 
 
 const Login = () => { 
-
   const navigate = useNavigate();
-  // const [validated, setValidated] = useState(false);
-  // const setUset = ()=>{
-  //   setUser({ id: '1', name: 'robin', token:"nkabdh23g8o423hbb23hjkb8g23h4b233g43h2b7932o" })
-  //   navigate("/dashboard");
-  // }  
-  // const handleSubmit = (event) => {
-  //   const form = event.currentTarget;
-  //   if (form.checkValidity() === false) {
-  //     event.preventDefault();
-  //     event.stopPropagation();
-  //   }
-
-  //   const formData = {
-  //     email: emailValue,
-  //     password: passwordValue,
-  //   }
-  //   loginUser(formData)
-  //   .then((res)=>{
-  //     console.log(res)
-  //   })
-    
-  //   setValidated(true);
-  // };
-
-
   const [ showPassword, setShowPassword ] = useState(false);
   const [ recaptcha, setRecaptcha ] = useState(null);
-  
-
   const publicKey = "6Leq3r4UAAAAAMkk_R0hCXWGAqXY7SNuE13KEe00";
   const callback = (token, refreshFunc) => {
     console.error(token, refreshFunc);
