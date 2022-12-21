@@ -1,6 +1,5 @@
 import React from "react";
 import { useParams} from "react-router-dom";
-
 import MenuComponent from "../../components/Menu/Menu";
 import FooterComponent from "../../components/Footer/Footer";
 import SideBarComponent from "../../components/SideBar/SideBar";
@@ -8,14 +7,11 @@ import TableComponent from "../../components/Table/Table";
 import PageTitle from "../../components/PageTitle/PageTitle";
 import Logo from '../../assets/images/logo.png';
 
-
 const Dashboard = ({name}) => {
 
     const params = useParams();
-
     let titleComponent;
     let tableComponent = <>No Table</>;
-
     if(params.optiontype === "highvolume") {
         titleComponent = (
             <PageTitle title="High Volume Options" 
@@ -51,15 +47,8 @@ const Dashboard = ({name}) => {
                 <div className="main-container mt-4">
                     <SideBarComponent />
                     <div className="main__containe__inner">
-                            {/* <Routes>
-                                <Route exact path="/options" element={<PageTitle />} />
-                                <Route exact path="/mostactive" element={<p>My Sample Routing</p>}></Route>
-                                <Route exact path="/" element={<><PageTitle /><TableComponent /></>} />
-                                <Route path="*" element={<p>There's nothing here: 404!</p>} />
-                            </Routes> */}
-
-                            {titleComponent}
-                            {tableComponent}
+                        {titleComponent}
+                        {tableComponent}
 
                         <div className="pre-wrapper">
                             <div className="prem-left-wrapper">
@@ -72,7 +61,6 @@ const Dashboard = ({name}) => {
                                     data including advanced strategies for Covered Calls, Naked Puts and Option
                                     Spreads, based on 100s of criteria. <a href="">Sign up for a risk-free 30-day trial today</a>.</p>
                             </div>
-
                             <div className="prem-right-wrapper">
                                 <button className="btn btn-unlock">
                                     Unlock the Entire List

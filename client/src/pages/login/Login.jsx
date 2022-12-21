@@ -8,15 +8,11 @@ import { LoadingButton } from '@mui/lab';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FormProvider, RHFTextField, RHFCheckbox } from '../../components/hook-form';
-
-// import {Form, Button} from 'react-bootstrap';
-// import { setUser } from "../../utils/user";
 import MenuComponent from "../../components/Menu/Menu";
 import FooterComponent from "../../components/Footer/Footer";
 
 
 import { ReCaptchaProvider, ReCaptchaV3, ReCaptchaV2 } from "react-recaptcha-x";
-
 
 import './style.css';
 import { loginUser } from "../../apis/auth";

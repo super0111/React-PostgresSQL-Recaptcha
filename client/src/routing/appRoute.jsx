@@ -17,13 +17,9 @@ const AppRoute = () => {
         </Route>
         <Route path='/login' element={<Login />} /> 
         <Route path="/register" element={<Register />} />
-        {/* <Route exact path='/recaptcha' element={<Recaptcha />} /> */}
         <Route path="/:optiontype" element={<Dashboard name={"SampleName"} />} />
-        <Route
-            path={ROUTES_URL.LOGIN}
-            element={ <Login /> }
-        />
-          <Route path="*" element={<p>There's nothing here: 404!</p>} />
+        <Route path={ROUTES_URL.LOGIN} element={ <Login /> } />
+        <Route path="*" element={<p>There's nothing here: 404!</p>} />
       </Routes>
     </>
   );
